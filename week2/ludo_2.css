@@ -1,0 +1,53 @@
+.main{
+    border: 5px solid black;
+    width: 800px;
+    height: 800px;
+    
+}
+.green{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+
+}
+.yellow{
+
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+
+}
+.play2{
+
+display: flex;
+justify-content: space-between;
+}
+.play4{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 195px;
+}
+.red{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+}
+.blue{
+
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+
+}
+.divbox{
+    border: 1px solid black;
+    width: 66px;
+    height: 66px;
+}.

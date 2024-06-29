@@ -1,0 +1,133 @@
+div{
+    border: 3px solid black;
+    height: 500px;
+
+    width: 1050px;
+}
+.div{
+    border: 2px solid grey;
+    height: 250px;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 80px;
+    width: 850px;
+    margin-left: 40px;
+    
+    
+    
+
+}
+header{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(167, 189, 167);
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    
+
+    
+}
+b{
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+.box{
+    border: 1px solid grey;
+    height: 470px;
+    width: 350px;
+    position: absolute;
+    right: 350px;
+    top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px color black;
+    
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    
+}
+article{
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+}
+
+aside{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 60px;
+    
+}
+.div4{
+    border: 1px solid black;
+    border-right-color: lightblue;
+    width: 150px;
+    height: 50px;
+    
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.div5{
+
+    border: 1px solid black;
+    border-left-color: lightblue;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.color{
+border: 10px solid;
+
+margin-top: 15px;
+margin-right: 110px;
+width: 140px;
+height: 80px;
+border-left-color: lightblue;
+border-top-color: green;
+border-right-color: yellow;
+border-bottom: transparent;
+border-radius: 100px 100px 0 0 ;
+position:  relative;
+left: 95px;
+}
+score{
+    margin: 15px;
+}
+.div4 h{
+    font-size: large;
+    margin: 10px;
+    
+    
+
+}
+.div4 c{
+    margin: 10px;
+}
+.div5 h{
+    font-size: large;
+    margin: 10px;
+    
+    
+}
+.div5 c{
+    margin: 10px;
+}
+#icon i{
+    position: relative;
+    
+}
+

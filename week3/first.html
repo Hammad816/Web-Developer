@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    .outer{
+        margin: 0 auto;
+        width: 660px;
+        border-radius: 10px;
+        background-color: antiquewhite;
+    }
+    #first{
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #last{ 
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #date{
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #email{
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #address{
+        border: none;
+        padding-left: 20px;
+        width: 600px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    hr{
+        width: 640px;
+        margin:;
+    }
+    label{
+        display: inline-block;
+        margin: 10px;
+    }
+    #button{
+        color: aliceblue;
+        background-color: purple;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    a{
+        font-size: 20px;
+        border: none;
+        background-color: purple;
+        color: white;
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h{
+    
+
+       display: flex;
+        justify-content: flex-end;
+        margin: 10px;
+        
+
+    }
+    #sign{
+        width: 50px;
+        height: 50px;
+    }
+
+</style>
+<body>
+    <div class="outer">
+    
+    <form>
+        
+    <label> <h4>First name</h4>
+            <input type="name" placeholder="First name" id="first"></label>
+            <label > <h4> Last name</h4>
+            <input type="name" placeholder="Last name" id="last"></label>
+    </form>
+    <form>
+        <label> <h4>Date of birth </h4><input type="date" id="date"></label>
+       <label> <h4>Email Address</h4><input type="email" placeholder="example@mail.com" id="email"></label>
+    </form>
+    <form>
+        <label> <h4>Address</h4><input type="address" placeholder="Flat 4, 24 Castle street, perth, PH1 3JY" id="address"></label>
+    </form>
+    <h><a href="nextstep.html">Next Step</a></h>
+     
+</div>
+</body>
+</html>

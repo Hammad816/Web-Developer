@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ludo_2.css">
+    <title>Document</title>
+</head>
+<style>
+    .layout{
+        border: 1px solid black;
+        height: 750px;
+        width: 750px;
+        margin: 0px auto;
+        border-radius: 50px;
+    }
+    .players_2{
+        height: 300px;
+        width: 750px;
+       // background: pink;
+    }
+    .box_red{
+        height: 200px;
+        width: 200px; 
+        float: left;
+        border-top-left-radius: 50px;
+    }
+    .box_green{
+        height: 200px;
+        width: 200px; 
+        float: left;
+        border-top-right-radius: 50px;
+    }
+    .box_blue{
+        height: 200px;
+        width: 200px; 
+        float: left;
+        border-bottom-left-radius: 50px;
+    }
+    .box_yellow{
+        height: 200px;
+        width: 200px; 
+        float: left;
+        border-bottom-right-radius: 50px;
+    }
+    .border_red{
+        border: 50px solid red;
+    }
+    .border_green{
+        border: 50px solid green;
+
+    }
+    .border_blue{
+        border: 50px solid blue;
+    }
+    .border_yellow{
+        border: 50px solid yellow;
+    }
+    .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 25px;
+        box-sizing: border-box;
+        float: left;  
+    }
+    .cr_2{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+
+    }
+    .v_ludo{
+        width: 150px;
+        height: 300px;
+        float: left;
+    }
+    .box_row{
+        height: 50px;
+        width: 50px;
+    }
+    .cell{
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .red_cell{
+        background-color: red;
+    }
+    .green_cell{
+        background-color: green;
+    }
+    .blue_cell{
+        background-color: blue;
+    }
+
+    .yellow_cell{
+        background-color: yellow;
+    }
+    .middle{
+        width: 750px;
+        height: 150px;
+        //background-color: antiquewhite;
+    }
+    .h_ludo{
+        width: 300px;
+        height: 150px;
+        float: left;
+        //background-color: navy;
+    }
+    .h_ludo_row{
+        height: 50px;
+        width: 300px;
+    }
+    .ludo_home{
+        float: left;
+        border-left: 75px solid red;
+        border-top: 75px solid green;
+        border-right: 75px solid yellow;
+        border-bottom: 75px solid blue;   
+    }
+    .h_ludo_y{
+        height: 50px;
+        width: 300px;
+        float: left;
+        //background-color: antiquewhite;
+    }
+    .star{
+        font-size: 35px;
+        color: white;   
+    }
+    
+</style>
+<body>
+<div class="layout">
+    <div class="players_2">
+    <div class="box_red border_red">
+        <div class="circle" style="border: 3px solid red;" ><div class="cr_2" style="background-color: red;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid red;" ><div class="cr_2" style="background-color: red;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid red;" ><div class="cr_2" style="background-color: red;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid red;" ><div class="cr_2" style="background-color: red;"><span class="star">&#9733;</span></div> </div>
+    </div>
+    <div class="v_ludo">
+    <div class="row_v">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell green_cell"></div>
+    <div class="cell green_cell"><span class="star">&#9733;</span></div>
+</div>
+
+<div class="row_v">
+    <div class="cell green_cell"><span class="star">&#9733;</span></div>
+    <div class="cell green_cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell green_cell"></div>
+    <div class="cell"></div>
+</div>
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell green_cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell green_cell"></div>
+    <div class="cell"></div>
+</div>
+</div>
+    <div class="players_2">
+        <div class="box_green border_green">
+            <div class="circle" style="border: 3px solid  green;" ><div class="cr_2" style="background-color: green;"><span class="star">&#9733;</span></div> </div>
+            <div class="circle" style="border: 3px solid  green;" ><div class="cr_2" style="background-color: green;"><span class="star">&#9733;</span></div> </div>
+            <div class="circle" style="border: 3px solid  green;" ><div class="cr_2" style="background-color: green;"><span class="star">&#9733;</span></div> </div>
+            <div class="circle" style="border: 3px solid  green;" ><div class="cr_2" style="background-color: green;"><span class="star">&#9733;</span></div> </div>
+    </div>
+</div>
+</div>
+<div class="middle">
+    <div class="h_ludo">
+    <div class="h_ludo_row">
+    <div class="cell"></div>
+    <div class="cell red_cell"><span class="star">&#9733;</span></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    </div>
+ <div class="h_ludo_row">
+        <div class="cell"></div>
+        <div class="cell red_cell"></div>
+        <div class="cell red_cell"></div>
+        <div class="cell red_cell"></div>
+        <div class="cell red_cell"></div>
+        <div class="cell red_cell"></div>
+        </div>
+ <div class="h_ludo_row">
+            <div class="cell"></div>
+            <div class="cell "></div>
+            <div class=" cell red_cell"><span class="star">&#9733;</span></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            </div>
+    </div>
+ <div class="ludo_home"></div>
+ <div class="h_ludo_y">
+ <div class="cell"></div>
+ <div class="cell"></div>
+ <div class="cell"></div>
+ <div class="cell yellow_cell"><span class="star">&#9733;</span></div>
+ <div class="cell"></div>
+ <div class="cell"></div>
+</div>
+<div class="h_ludo_y">
+    <div class="cell yellow_cell"></div>
+    <div class="cell yellow_cell"></div>
+    <div class="cell yellow_cell"></div>
+    <div class="cell yellow_cell"></div>
+    <div class="cell yellow_cell"></div>
+    <div class="cell"></div>
+   </div>
+   <div class="h_ludo_y">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell yellow_cell"><span class="star">&#9733;</span></div>
+    <div class="cell"></div>
+   </div>
+   <div class="players_2">
+    <div class="box_blue border_blue">
+        <div class="circle" style="border: 3px solid  blue;" ><div class="cr_2" style="background-color: blue;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid  blue;" ><div class="cr_2" style="background-color: blue;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid  blue;" ><div class="cr_2" style="background-color: blue;"><span class="star">&#9733;</span></div> </div>
+        <div class="circle" style="border: 3px solid  blue;" ><div class="cr_2" style="background-color: blue;"><span class="star">&#9733;</span></div> </div>
+    </div>
+    <div class="v_ludo">
+    <div class="row_v">
+    <div class="cell"></div>
+    <div class="cell blue_cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell "></div>
+    <div class="cell blue_cell"></div>
+    <div class="cell "></div>
+</div>
+
+<div class="row_v">
+    <div class="cell "></div>
+    <div class="cell blue_cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell blue_cell"></div>
+    <div class="cell blue_cell"><span class="star">&#9733;</span></div>
+</div>
+<div class="row_v">
+    <div class="cell blue_cell"><span class="star">&#9733;</span></div>
+    <div class="cell blue_cell"></div>
+    <div class="cell"></div>
+</div>
+
+<div class="row_v">
+    <div class="cell"></div>
+    <div class="cell "></div>
+    <div class="cell"></div>
+</div>
+</div>
+    <div class="players_2">
+        <div class="box_yellow border_yellow">
+        <div class="circle" style="border: 3px solid yellow;" ><div class="cr_2" style="background-color: yellow;"><span class="star">&#9733;</span></div></div>
+        <div class="circle" style="border: 3px solid yellow;" ><div class="cr_2" style="background-color: yellow;"><span class="star">&#9733;</span></div></div>
+        <div class="circle" style="border: 3px solid yellow;" ><div class="cr_2" style="background-color: yellow;"><span class="star">&#9733;</span></div></div>
+        <div class="circle" style="border: 3px solid yellow;" ><div class="cr_2" style="background-color: yellow;"><span class="star">&#9733;</span></div></div>
+    </div>
+            
+            
+        
+</div>
+    </div>
+</body>
+</html>
